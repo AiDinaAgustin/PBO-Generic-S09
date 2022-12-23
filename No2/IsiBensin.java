@@ -32,6 +32,7 @@ public class IsiBensin {
     String kendaraanSedangDiproses = antrianKendaraan.poll();
     System.out.println("\nSedang mengisi bensin untuk kendaraan: " + kendaraanSedangDiproses);
 
+    
     // Mencetak daftar kendaraan di antrianKendaraan setelah diproses
     System.out.println("\nDaftar Kendaraan Setelah Diproses:");
     for (String kendaraan : antrianKendaraan) {
